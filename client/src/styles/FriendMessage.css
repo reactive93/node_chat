@@ -1,0 +1,26 @@
+
+
+.friend-message {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.text-friend {
+    background-color: rgba(127, 250, 96, 0.664);
+    padding: 5px;
+    border-radius: 3px;
+    overflow-wrap: break-word;
+    max-width: 170px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.username {
+    margin-right: 5px;
+    min-width: 30px;
+    max-width: 100px;
+    overflow-wrap: break-word;
+}

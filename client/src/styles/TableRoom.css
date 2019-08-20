@@ -1,0 +1,15 @@
+.head {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    border-color: rgba(211, 200, 200,1);
+    border-style: solid;
+    border-width: 1px;
+
+    width: 90vh;
+    height: 45vh;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    overflow-y: scroll;
+}

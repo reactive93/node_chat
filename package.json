@@ -1,0 +1,26 @@
+{
+  "name": "node_chat",
+  "version": "1.0.0",
+  "description": "Chat on websocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "dev": "nodemon ./server/server.js",
+    "test": "mocha --timeout=30000 ./server/tests/*.test.js",
+    "debug": "node --inspect ./server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "socket.io-client": "^2.2.0"
+  }
+}

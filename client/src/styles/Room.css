@@ -1,0 +1,22 @@
+.room-item {
+    display: flex;
+    flex-direction: column;
+    border-top-style: solid;
+    margin: 3px;
+    border-width: 1px;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    
+}
+
+.room-item:hover {
+    background-color: rgba(95, 160, 235, 0.897)
+}
+
+.room-item:active {
+    background-color: rgba(169, 201, 238, 0.897)
+}
+
+.room-selected {
+    background-color: rgba(101, 146, 197, 0.897)
+}

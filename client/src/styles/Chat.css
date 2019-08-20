@@ -1,0 +1,113 @@
+.chat-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.chat-margin-5 {
+    margin-top: 5vh;
+}
+
+.chat-center-top {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.chat-center-title {
+    display: flex;
+    justify-content: center;
+}
+
+.chat-column {
+    flex-direction: column;
+}
+
+.chat-color {
+    background-color: rgb(255, 255, 255);
+}
+
+.chat-rooms {
+    width: 20%;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-chat {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.chat-people {
+    width: 20%;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-title {
+    margin-bottom: 15px;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.scroll-room {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    height: 100%;
+}
+
+.scroll-chat {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    height: 75%;
+}
+
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    background: transparent;  /* опционально */
+}
+
+.chat-input-text {
+    display: flex;
+}
+
+.chat-button-send {
+    background-color: rgb(85, 99, 223);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 10%;
+}
+
+.chat-button-send:hover {
+    background-color: rgb(65, 81, 223);
+}
+
+.chat-button-send:active {
+    background-color: rgb(155, 162, 226);
+}
+
+textarea {
+    width: 90%;
+    height: 10vh;
+    margin-top: 10px;
+}
+
+
+
+
+

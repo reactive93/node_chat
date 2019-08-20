@@ -1,0 +1,20 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    border-color: rgba(211, 200, 200,1);
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.item:hover {
+    background-color: rgb(187, 209, 238);
+}
+
+.item:active {
+    background-color: rgb(130, 173, 228);
+}
