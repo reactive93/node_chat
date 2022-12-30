@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/node": "^12.7.1",
     "chai": "^4.2.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.1",
     "socket.io-client": "^2.2.0"
   }
